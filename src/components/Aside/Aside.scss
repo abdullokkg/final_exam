@@ -1,0 +1,38 @@
+.aside{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 60px;
+    .aside_txt{
+        padding: 10px 0px;
+        flex-direction: column;
+        img{
+            width: 100px;
+        }
+        strong{
+            font-size: 16px;
+        }
+        h1{
+            font-size: 26px;
+        }
+        button{
+            width: 150px;
+            gap: 0 1px;
+            background-color: #fff;
+            border: 1px solid black;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+        }
+        button:hover{
+            background-color: black;
+            color: #fff;
+            border: 1px solid #fff;
+        }
+        .icon{
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.header{
+    padding: 10px 0px;
+    .header_ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0 10px;
+        .link{
+            text-decoration: none;
+            color: black;
+        }
+        .link:hover{
+            color: #3665F3;
+        }
+        .header_ul_item{
+            font-size: 10px;
+            list-style-type: none;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            border-bottom: 1px solid #fff;
+        }
+        .header_ul_item:hover{
+            color: #3665F3;
+            border-bottom: 1px solid #3665F3;
+        }
+    }
+}

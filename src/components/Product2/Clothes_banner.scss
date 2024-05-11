@@ -1,0 +1,17 @@
+.banner{
+    .banner_img{
+        img{
+            width: 1349px;
+            height: 413px;
+        }
+    }
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: blue;
+    border-bottom: 1px solid blue;
+}

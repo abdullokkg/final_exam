@@ -1,0 +1,80 @@
+.hero{
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 0 5px;
+    border-bottom: 1px solid black;
+    .hero_logo{
+        display: flex;
+        align-items: center;
+        gap: 0 10px;
+        .hero_form{
+            .form_select{
+                border: none;
+                height: 40px;
+                font-size: 13px;
+                cursor: pointer;
+            }
+            .form_select:hover{
+                color: #3665F3;
+            }
+        }
+    }
+    .hero_categories{
+        display: flex;
+        align-items: center;
+        width: 720px;
+        height: 40px;
+        border: 1px solid black;
+        gap: 0 5px;
+        .categories_input{
+            width: 546px;
+            padding: 0px 10px;
+            border: none;
+            height: 38px;
+        }
+        .categories_input::placeholder{
+            font-size: 15px;
+        }
+        .hero_item{
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            margin-top: 3px;
+            margin-left: 15px;
+        }
+        .hero_select{
+            width: 200px;
+            height: 40px;
+            padding: 0px 15px;
+            font-size: 12px;
+        }
+    }
+    .hero_search{
+        display: flex;
+        align-items: center;
+        gap: 0 10px;
+        .hero_btn{
+            width: 150px;
+            height: 40px;
+            border: none;
+            font-size: 14px;
+            background-color: #3665F3;
+            cursor: pointer;
+            color: #fff;
+        }
+        .hero_ul{
+            .hero_ul_item{
+                list-style-type: none;
+                font-size: 10px;
+                color: #767676;
+                cursor: pointer;
+            }
+            .hero_ul_item:hover{
+                color: #3665F3;
+            }
+        }
+    }
+}
